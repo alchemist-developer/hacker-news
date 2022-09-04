@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 
-function header() {
+function Header() {
   return (
     <>
       <h1>Hacker News Clone</h1>
