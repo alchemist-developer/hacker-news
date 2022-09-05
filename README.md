@@ -3,7 +3,7 @@
   <h3 align="center">Developed using the<a href="https://github.com/HackerNews/API"> Hacker News API</a></h3>
   </tr>
   <tr>
-  <td align="center"> <img width="333px" height="333px" src="https://user-images.githubusercontent.com/88943961/188346445-a98b6ebe-c185-4455-a72f-0e401bc8240e.png"/></td>
+  <td align="center"> <img width="300px" height="300px" src="https://user-images.githubusercontent.com/88943961/188346445-a98b6ebe-c185-4455-a72f-0e401bc8240e.png"/></td>
   <td align="center"> <img src="https://user-images.githubusercontent.com/88943961/188347779-e9df4450-0638-4b21-8dfe-cf34f956afcc.gif"/></td>
   </tr>
 </table>
