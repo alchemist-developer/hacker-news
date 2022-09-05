@@ -6,7 +6,7 @@ const Link = ({ url, title }) => (
 
 const Story = ({ story: { id, by, title, kids, time, url } }) => {
   return (
-    <div className="story">
+    <div className="story w-100">
       <div className="story-title">
         <Link url={url} title={title} />
       </div>
