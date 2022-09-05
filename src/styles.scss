@@ -1,6 +1,7 @@
-$base-bg-color: #121212;
+$base-bg-color: rgba(0, 0, 0, 0.87);
 $base-text-color: #e17055;
-$link-color: #b55a44;
+$link-color: #9c98dd81;
+$primary-font:  "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 * {
   margin: 0;
@@ -9,10 +10,10 @@ $link-color: #b55a44;
 }
 
 body {
-  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: $primary-font;
   letter-spacing: 1px;
   color: $base-text-color;
-  background-color: $base-bg-color;
+  background: $base-bg-color;
 }
 
 h1 {
@@ -34,8 +35,8 @@ h1 {
   z-index: 99999;
   background: linear-gradient(
     to bottom,
-    rgba(0, 0, 0, 0.6),
-    rgba(0, 0, 0, 0.5)
+    rgba(37, 34, 34, 0.5),
+    rgba(130, 128, 139, 0.418)
   );
 
   .message {
@@ -76,9 +77,16 @@ h1 {
 .story {
   width: 80%;
   margin: 10px auto;
-  border: 1px solid #ccc;
+  border: 1px solid rgba(204, 204, 204, 0.205);
   border-radius: 5px;
-  padding: 10px;
+  padding: 25px 50px;
+  transition: 0.4s ease-in-out;
+
+  &:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.247);
+    cursor: pointer;
+    padding: 33px 50px;
+  }
 
   .story-title {
     margin-bottom: 4px;
